@@ -9,7 +9,7 @@ import requests
 PROJECT_NAME = "agent-to-agent-5055"           # e.g., myagentproj
 AI_SERVICE_NAME = "agent-to-agent-5055-resource"     # e.g., myai
 ASSISTANT_ID = "asst_zQ8ANX9CJfElxVlHKEKiLa5P"                   # from portal
-API_VERSION = "20254-07-18"
+API_VERSION = "2024-07-18"
 
 
 BASE_URL = f"https://{AI_SERVICE_NAME}.services.ai.azure.com/api/projects/{PROJECT_NAME}"
