@@ -6,10 +6,11 @@ from azure.identity import DefaultAzureCredential
 import requests
 
 # === UPDATE THESE VALUES ===
-PROJECT_NAME = "your-project-name"        # e.g., myagentproj
-AI_SERVICE_NAME = "your-ai-service-name"  # e.g., myai
-ASSISTANT_ID = "asst_abc123"              # from AI Foundry portal
-API_VERSION = "2025-05-01"
+PROJECT_NAME = "agent-to-agent-5055"           # e.g., myagentproj
+AI_SERVICE_NAME = "agent-to-agent-5055-resource"     # e.g., myai
+ASSISTANT_ID = "asst_zQ8ANX9CJfElxVlHKEKiLa5P"                   # from portal
+API_VERSION = "20254-07-18"
+
 
 BASE_URL = f"https://{AI_SERVICE_NAME}.services.ai.azure.com/api/projects/{PROJECT_NAME}"
 
